@@ -1,0 +1,23 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: passwd
+      MYSQL_DATABASE: quarkus-example
+      MYSQL_USER: quarkman
+      MYSQL_PASSWORD: passwd
+    volumes:
+      - mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - my-network
+
+volumes:
+  mysql-data:
+    driver: local
+
+networks:
+  my-network:
+    driver: bridge
