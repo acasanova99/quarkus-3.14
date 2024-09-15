@@ -1,0 +1,10 @@
+INSERT INTO user (name, surname) VALUES ('Alice', 'Johnson');
+INSERT INTO user (name, surname) VALUES ('Bob', 'Smith');
+INSERT INTO user (name, surname) VALUES ('Charlie', 'Brown');
+INSERT INTO user (name, surname) VALUES ('David', 'Williams');
+INSERT INTO user (name, surname) VALUES ('Eva', 'Jones');
+INSERT INTO user (name, surname) VALUES ('Frank', 'Miller');
+INSERT INTO user (name, surname) VALUES ('Grace', 'Wilson');
+INSERT INTO user (name, surname) VALUES ('Hannah', 'Moore');
+INSERT INTO user (name, surname) VALUES ('Ian', 'Taylor');
+INSERT INTO user (name, surname) VALUES ('Judy', 'Anderson');
